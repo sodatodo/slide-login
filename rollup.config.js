@@ -10,8 +10,13 @@ const config = {
   output: [
     {
       dir: 'dist',
-      format: 'cjs',
-      sourcemap: true
+      format: 'amd',
+      sourcemap: true,
+      name: 'SlideLogin',
+      globals: {
+        'react': 'React',
+        'prop-types': 'PropTypes'
+      },
     }
   ],
   plugins: [
