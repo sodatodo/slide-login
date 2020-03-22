@@ -5,7 +5,7 @@ import babel from 'rollup-plugin-babel';
 import postcss from 'rollup-plugin-postcss';
 
 import pkg from './package.json';
-const extensions = ['.ts', '.tsx', '.css'];
+const extensions = ['.ts', '.tsx'];
 
 const config = {
   input: 'src',
