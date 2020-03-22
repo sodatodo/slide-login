@@ -5,7 +5,3 @@ export default {
   SlideContainer,
   SlideItem,
 }
-export {
-  SlideContainer,
-  SlideItem
-}
